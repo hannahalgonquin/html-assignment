@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: #d7f4f8;
+}
+
+.site-title {
+    color:blue
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+ul li:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+/* Styling the navigation */
+nav ul {
+    list-style-type: none; /* Remove bullets */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    background-color: #e0e0e0; /* Add background */
+    border: 1px solid #ccc; /* Add border */
+    padding: 5px 10px; /* Add padding */
+    display: inline-block; /* Make links display as blocks */
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #ccc; /* Change background color on hover/focus */
+}
